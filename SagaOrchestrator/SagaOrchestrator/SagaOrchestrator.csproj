@@ -7,6 +7,13 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="GraphQL" Version="8.5.0" />
+        <PackageReference Include="GraphQL-Parser" Version="9.5.0" />
+        <PackageReference Include="GraphQL.Client" Version="6.1.0" />
+        <PackageReference Include="GraphQL.Client.Serializer.Newtonsoft" Version="6.1.0" />
+        <PackageReference Include="HotChocolate" Version="14.3.0" />
+        <PackageReference Include="HotChocolate.AspNetCore" Version="14.3.0" />
+        <PackageReference Include="HotChocolate.Data" Version="14.3.0" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5"/>
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
     </ItemGroup>
